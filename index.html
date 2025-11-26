@@ -4,6 +4,18 @@
 <head>
 <meta charset="UTF-8">
 <script>
+  function start(){
+  const Http = new XMLHttpRequest();
+//const url='https://jsonplaceholder.typicode.com/posts';
+        const url='https://script.google.com/macros/s/AKfycbzLVksrx6uWaQsKNWyTV_as3vBmJ3FhisoGJCUv7bL_LpFPYZZyQOm02rbVMlaV173A9g/exec';
+
+Http.open("GET", url);
+Http.send();
+
+Http.onreadystatechange = (e) => {
+  console.log(Http.responseText)
+}
+  }
   async function doPost() {
     const email = 'naka4o.hd@gmail.com';
     const name = '中塩';
@@ -44,7 +56,7 @@ ${error}
 }
 </script>
 </head>
-<body onload='doPost();'>
+<body onload='start();'>
   <div id='output'></div>
 </body>
 </html>
