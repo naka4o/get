@@ -18,8 +18,7 @@ async function doPost() {
     //const url2='https://script.google.com/macros/s/AKfycbzLVksrx6uWaQsKNWyTV_as3vBmJ3FhisoGJCUv7bL_LpFPYZZyQOm02rbVMlaV173A9g/exec';
     //const param='?param=U2FsdGVkX1%2ByVECD2yA0%2FFUPWcGfxBevTiLbQIQvgZWtXRdbgDM0%2Ft%2BmhPKyOrtO&no=1';
     // array param
-    const param='?param=U2FsdGVkX191hvOM4B8UU5A5DSXSgjP0lAtiHpUqTLR2zA%2B5djgMRr8%2BdlCk2%2FzlH2fZ9n1lm4epqyW0KaN7JEHtlvXJWRD%2Bb5zVgPlgb8l4m1QLFQD4%2FoDbvkYPirTu&no=1 
-';
+    const param='?param=U2FsdGVkX191hvOM4B8UU5A5DSXSgjP0lAtiHpUqTLR2zA%2B5djgMRr8%2BdlCk2%2FzlH2fZ9n1lm4epqyW0KaN7JEHtlvXJWRD%2Bb5zVgPlgb8l4m1QLFQD4%2FoDbvkYPirTu&no=1';
     const res = await fetch(URL+param);
     console.log(res);
     const d = await res.json();
