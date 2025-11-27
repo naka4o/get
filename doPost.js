@@ -6,7 +6,7 @@ async function doPost() {
 <h3>データ送信中.. 数秒お待ちください ..</h3>
 `;
 // decrypto
-    //const URL='https://script.google.com/macros/s/AKfycbyn3kjIYtpNr6IYXhV_04GY9e6gsTOiM090MAM1WyN9Oq--uKTJoRrcPULlTeOBEghD5A/exec';
+    // getNameGrad.gs
     const URL='https://script.google.com/macros/s/AKfycbyn3kjIYtpNr6IYXhV_04GY9e6gsTOiM090MAM1WyN9Oq--uKTJoRrcPULlTeOBEghD5A/exec'
     //const param='U2FsdGVkX1%2ByVECD2yA0%2FFUPWcGfxBevTiLbQIQvgZWtXRdbgDM0%2Ft%2BmhPKyOrtO';
     try {
