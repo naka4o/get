@@ -7,7 +7,7 @@ async function doPost() {
 `;
 // decrypto
     const URL='https://script.google.com/macros/s/AKfycbyn3kjIYtpNr6IYXhV_04GY9e6gsTOiM090MAM1WyN9Oq--uKTJoRrcPULlTeOBEghD5A/exec';
-    const param='U2FsdGVkX1%2ByVECD2yA0%2FFUPWcGfxBevTiLbQIQvgZWtXRdbgDM0%2Ft%2BmhPKyOrtO';
+    //const param='U2FsdGVkX1%2ByVECD2yA0%2FFUPWcGfxBevTiLbQIQvgZWtXRdbgDM0%2Ft%2BmhPKyOrtO';
     try {
       /*
     const res = await fetch(URL, {
