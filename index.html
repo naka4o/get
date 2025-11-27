@@ -29,6 +29,8 @@
 ${JSON.stringify(d.nameGrad)}<br>
 ${JSON.stringify(d.lastOne)}
     `; 
+      document.getElementById('date').value = d.lastOne.日付;
+      document.getElementById('name').value = d.nameGrad.name;
 } catch (error) {
         console.error('エラーが発生しました:', error);
         document.getElementById('output').innerHTML = `
@@ -43,5 +45,8 @@ ${error}
 </head>
 <body onload='doPost()'>
   <div id='output'></div>
+
+  <input id='date'><br>
+  <input id='name'><br>
 </body>
 </html>
