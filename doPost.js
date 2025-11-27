@@ -22,7 +22,7 @@ async function doPost() {
     const res = await fetch(URL+param);
     console.log(res);
     const d = await res.json();
-      console.log(d);
+    console.log(d);
     document.getElementById('output').innerHTML =`
 <h3>ご回答、ありがとうございました。</h3>
 ${JSON.stringify(d.nameGrad)}<br>
