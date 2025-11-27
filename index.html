@@ -26,8 +26,8 @@
       console.log(d);
     document.getElementById('output').innerHTML =`
 <h3>ご回答、ありがとうございました。</h3>
-${d.param}<br>
-${d.decrypto}
+${JSON.stringify(d.nameGrad)}<br>
+${JSON.stringify(d.lastOne)}
     `; 
 } catch (error) {
         console.error('エラーが発生しました:', error);
