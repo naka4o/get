@@ -29,7 +29,7 @@
 ${JSON.stringify(d.nameGrad)}<br>
 ${JSON.stringify(d.lastOne)}
     `; 
-      document.getElementById('date').value = new Date(d.lastOne.日付).toLocalString();
+      document.getElementById('date').value = new Date(d.lastOne.日付).toLocaleString();
       document.getElementById('name').value = d.nameGrad.name;
 } catch (error) {
         console.error('エラーが発生しました:', error);
