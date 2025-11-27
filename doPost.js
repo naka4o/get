@@ -1,4 +1,5 @@
 async function doPost() {
+    document.getElementById('start').innerHTML=new Date().toLocaleString();
     document.getElementById("output").innerHTML=`    
 <h3>データ送信中.. 数秒お待ちください ..</h3>
 `;
@@ -34,4 +35,6 @@ ${error}
 </strong>
 `;
 }
+        document.getElementById('done').innerHTML=new Date().toLocaleString();
+
 }
